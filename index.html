@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Stupido Studios is a cinematic portfolio showcasing premium artwork, digital storytelling, and immersive creative direction." name="description"/>
+<meta content="#07070a" name="theme-color"/>
+<link href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%2307070a'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle' fill='%23d4af37' font-family='Georgia,serif' font-style='italic'%3ES%3C/text%3E%3C/svg%3E" rel="icon"/>
+<meta content="Stupido Studios | Premium Portfolio" property="og:title"/>
+<meta content="Stupido Studios is a cinematic portfolio showcasing premium artwork, digital storytelling, and immersive creative direction." property="og:description"/>
+<meta content="website" property="og:type"/>
+<link href="index.html" rel="canonical"/>
+<meta content="assets/traditional-art.svg" property="og:image"/>
+<meta content="index.html" property="og:url"/>
+<title>Stupido Studios | Premium Portfolio</title>
+<script>document.documentElement.classList.add('js');</script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,500;1,9..144,600&amp;family=Manrope:wght@300;400;500;600;700;800&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet"/>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "index.html#artist",
+      "name": "S. J. Srihari Haran",
+      "url": "index.html",
+      "sameAs": [
+        "https://www.instagram.com/stupido_studios"
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "index.html#traditional-art",
+      "name": "Traditional Art",
+      "description": "Traditional Art collection by S. J. Srihari Haran at Stupido Studios — an elegant online gallery of handmade artworks.",
+      "creator": {
+        "@id": "index.html#artist"
+      },
+      "url": "T_arts.html",
+      "image": "assets/traditional-art.svg"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "index.html#digital-art",
+      "name": "Digital Art",
+      "description": "Digital Art collection by S. J. Srihari Haran at Stupido Studios — vivid digital illustration and concept work.",
+      "creator": {
+        "@id": "index.html#artist"
+      },
+      "url": "Digi_arts.html",
+      "image": "assets/nocturne-portrait.svg"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "index.html#3d-sculptures",
+      "name": "3D Sculptures",
+      "description": "3D Sculpture collection by S. J. Srihari Haran at Stupido Studios — character, creature, and hard-surface design.",
+      "creator": {
+        "@id": "index.html#artist"
+      },
+      "url": "3D_sculpts.html",
+      "image": "assets/character-sculpt.svg"
+    }
+  ]
+}</script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to content</a>
+<canvas aria-hidden="true" id="ink-canvas"></canvas>
+<div aria-hidden="true" class="grain-overlay"></div>
+<div aria-hidden="true" class="vignette"></div>
+<div class="loading-screen" id="loading-screen">
+<div class="loading-screen__content">
+<div class="loading-mark">Stupido</div>
+<div class="loading-screen__label">Studios</div>
+<div class="loading-bar"><span></span></div>
+</div>
+</div>
+<header class="site-header">
+<a class="brand" href="index.html"><span>Stupido</span> Studios</a>
+<button aria-expanded="false" aria-label="Toggle navigation" class="menu-toggle magnetic" type="button">☰</button>
+<nav aria-label="Primary navigation" class="site-nav">
+<a class="nav-link active" href="index.html#home">Home</a>
+<a class="nav-link" href="index.html#gallery">Gallery</a>
+<a class="nav-link" href="T_arts.html">Traditional Art</a>
+<a class="nav-link" href="Digi_arts.html">Digital Art</a>
+<a class="nav-link" href="3D_sculpts.html">3D Sculptures</a>
+<a class="nav-link" href="index.html#about">About</a>
+<a class="nav-link" href="index.html#contact">Contact</a>
+</nav>
+</header>
+<main id="main-content">
+<section class="hero" id="home">
+<div class="hero-inner">
+<div class="hero-content reveal">
+<div class="hero-eyebrow-row"><span class="hero-kicker">Digital Art Direction • Immersive Portfolio</span></div>
+<h1>Stupido <em>Studios</em></h1>
+<p class="hero-subtitle">Where imagination becomes art.</p>
+<p class="hero-intro">A cinematic portfolio for bold visual storytelling, where traditional craft, digital illustration, and dimensional form converge into one continuing body of work.</p>
+<div class="hero-actions">
+<a class="btn btn-primary magnetic" href="#gallery">Explore Gallery</a><a class="btn btn-secondary magnetic" href="#about">Meet the Artist</a>
+</div>
+</div>
+<div aria-hidden="true" class="hero-plate reveal">
+<div class="hero-plate-tag">
+
+<img alt="Stupido Studios Logo" src="assets/sketch-study.svg" height="85%" width="85%" style="border-radius: 10px;"/><br>
+  Est. 2025
+  <strong>The Gallery of a Stupid</strong>
+
+</div>
+</div>
+</div>
+</section>
+<section class="section" id="gallery">
+<div class="section-heading reveal">
+<p class="eyebrow">Curated Collection</p>
+<h2>Featured Works</h2>
+<p>Each piece begins as a concept and evolves into a tactile, cinematic visual experience built for admiration.</p>
+</div>
+<div class="gallery-filters reveal">
+<button class="filter-chip magnetic active" data-filter="all" type="button">All</button>
+<button class="filter-chip magnetic" data-filter="Traditional" type="button">Traditional</button>
+<button class="filter-chip magnetic" data-filter="Digital" type="button">Digital</button>
+<button class="filter-chip magnetic" data-filter="3D" type="button">3D</button>
+<button class="filter-chip magnetic" data-filter="Sketchbook" type="button">Sketchbook</button>
+<button class="filter-chip magnetic" data-filter="Concept Art" type="button">Concept Art</button>
+</div>
+<div class="gallery-grid">
+<article class="plate reveal plate--wide" data-category="Traditional" data-description="Layered charcoal, ink, and pigment compositions that capture atmosphere and emotion through hand-crafted detail." data-dimensions="24 × 36 in" data-image="assets/traditional-art.svg" data-medium="Charcoal • Ink • Pigment" data-title="Traditional Art" data-year="2024">
+<div class="plate-visual"><img alt="Traditional Art" data-srcset="" loading="lazy" sizes="(max-width: 720px) 100vw, (max-width: 980px) 50vw, 33vw" src="assets/traditional-art.svg"/></div>
+<div class="plate-content">
+<div class="plate-meta"><span>01</span><span>Traditional</span></div>
+<h3>Traditional Art</h3>
+<p>Charcoal, ink, and textured storytelling.</p>
+<div class="plate-foot"><span>Charcoal • Ink • Pigment</span><a class="card-link" href="T_arts.html" onclick="event.stopPropagation()">Explore →</a></div>
+</div>
+</article>
+<article class="plate reveal plate--tall" data-category="Digital" data-description="Vivid digital illustrations shaped by color, atmosphere, and visual rhythm for modern storytelling." data-dimensions="24 × 36 in" data-image="assets/digital-art.svg" data-medium="Digital Illustration" data-title="Digital Art" data-year="2025">
+<div class="plate-visual"><img alt="Digital Art" data-srcset="" loading="lazy" sizes="(max-width: 720px) 100vw, (max-width: 980px) 50vw, 33vw" src="assets/digital-art.svg"/></div>
+<div class="plate-content">
+<div class="plate-meta"><span>02</span><span>Digital</span></div>
+<h3>Digital Art</h3>
+<p>Rich color worlds and tailored visual language.</p>
+<div class="plate-foot"><span>Digital Illustration</span><a class="card-link" href="Digi_arts.html" onclick="event.stopPropagation()">Explore →</a></div>
+</div>
+</article>
+<article class="plate reveal plate--tall" data-category="3D" data-description="Form-driven sculptural concepts that explore volume, shadow, and tactile depth." data-dimensions="24 × 36 in" data-image="assets/3d-sculptures.svg" data-medium="3D Sculpting • Rendering" data-title="3D Sculptures" data-year="2024">
+<div class="plate-visual"><img alt="3D Sculptures" data-srcset="" loading="lazy" sizes="(max-width: 720px) 100vw, (max-width: 980px) 50vw, 33vw" src="assets/3d-sculptures.svg"/></div>
+<div class="plate-content">
+<div class="plate-meta"><span>03</span><span>3D</span></div>
+<h3>3D Sculptures</h3>
+<p>Modeling, form, and depth in motion.</p>
+<div class="plate-foot"><span>3D Sculpting • Rendering</span><a class="card-link" href="3D_sculpts.html" onclick="event.stopPropagation()">Explore →</a></div>
+</div>
+</article>
+<article class="plate reveal plate--wide" data-category="Sketchbook" data-description="Loose studies, rapid explorations, and ideas that reveal the process beneath the final image." data-dimensions="11 × 14 in" data-image="assets/sketchbook.svg" data-medium="Ink • Pencil • Study" data-title="Sketchbook" data-year="2023">
+<div class="plate-visual"><img alt="Sketchbook" data-srcset="" loading="lazy" sizes="(max-width: 720px) 100vw, (max-width: 980px) 50vw, 33vw" src="assets/sketchbook.svg"/></div>
+<div class="plate-content">
+<div class="plate-meta"><span>04</span><span>Sketchbook</span></div>
+<h3>Sketchbook</h3>
+<p>Raw process notes and evolving ideas.</p>
+<div class="plate-foot"><span>Ink • Pencil • Study</span><span>View</span></div>
+</div>
+</article>
+<article class="plate reveal plate--large" data-category="Concept Art" data-description="World-building pieces designed to translate vision into striking visual direction and narrative clarity." data-dimensions="2400 × 3200 px" data-image="assets/concept-art.svg" data-medium="Concept Design" data-title="Concept Art" data-year="2025">
+<div class="plate-visual"><img alt="Concept Art" data-srcset="" loading="lazy" sizes="(max-width: 720px) 100vw, (max-width: 980px) 50vw, 33vw" src="assets/concept-art.svg"/></div>
+<div class="plate-content">
+<div class="plate-meta"><span>05</span><span>Concept Art</span></div>
+<h3>Concept Art</h3>
+<p>Worlds, spaces, and storyboards in development.</p>
+<div class="plate-foot"><span>Concept Design</span><span>View</span></div>
+</div>
+</article>
+<article class="plate reveal plate--tall" data-category="Concept Art" data-description="World-building pieces designed to translate vision into striking visual direction and narrative clarity." data-dimensions="2400 × 3200 px" data-image="assets/concept-art.svg" data-medium="Concept Design" data-title="Concept Art" data-year="2025">
+<div class="plate-visual"><img alt="Concept Art" data-srcset="" loading="lazy" sizes="(max-width: 720px) 100vw, (max-width: 980px) 50vw, 33vw" src="assets/concept-art.svg"/></div>
+<div class="plate-content">
+<div class="plate-meta"><span>05</span><span>Concept Art</span></div>
+<h3>Concept Art</h3>
+<p>Worlds, spaces, and storyboards in development.</p>
+<div class="plate-foot"><span>Concept Design</span><span>View</span></div>
+</div>
+</article>
+</div>
+</section>
+<section class="section" id="about">
+<div class="section-heading reveal">
+<p class="eyebrow">Creative Minds</p>
+<h2>About the Studio</h2>
+<p>Two perspectives united by a shared vision: artistic expression and immersive digital craftsmanship.</p>
+</div>
+<div class="about-grid">
+<article class="profile-card reveal">
+<div class="profile-portrait"><img alt="Artist Portrait" src="assets/artist-portrait.jpg" style= "max-height: 555px; height: 100%; width: 100%; object-fit: cover; border-radius: 20px;"/></div>
+<div class="badge">Artist</div>
+<h3>S. J. Srihari Haran</h3>
+<p class="role">Artist</p>
+<p>Creative artist specializing in traditional artworks, digital illustrations, and visual storytelling, shaping every piece with emotional texture and meaning.</p>
+<div class="stat-list">
+<div class="stat-item"><strong>Signature</strong><span>Atmospheric storytelling</span></div>
+<div class="stat-item"><strong>Tools</strong><span>Procreate, Photoshop, Blender</span></div>
+<div class="stat-item"><strong>Experience</strong><span>2+ years</span></div>
+</div>
+</article>
+<article class="profile-card reveal">
+<div class="profile-portrait"><img alt="Developer Portrait" src="assets/developer-portrait.png" style= "max-height: 555px; height: 100%; width: 100%; object-fit: cover; border-radius: 20px;"/></div>
+<div class="badge">Developer</div>
+<h3>Hanish Arun Kumar</h3>
+<p class="role">Gallery Developer &amp; Designer</p>
+<p>Designed and developed the official digital experience of Stupido Studios, transforming creative vision into an immersive online portfolio with elegant interaction and clarity.</p>
+<div class="stat-list">
+<div class="stat-item"><strong>A Gallery</strong><span>Built for a purpose</span></div>
+<div class="stat-item"><strong>Focus</strong><span>Performance • Accessibility • Reliability</span></div>
+<div class="stat-item"><strong>Instagram</strong><span>@arcanixcodeforge</span></div>
+</div>
+</article>
+</div>
+</section>
+<section class="section" id="contact">
+<div class="section-heading reveal">
+<p class="eyebrow">Connect</p>
+<h2>Start a Conversation</h2>
+<p>For commissions, collaborations, or sharing a bold creative idea, reach out and let the work begin.</p>
+</div>
+<div class="contact-grid">
+<div class="contact-info reveal">
+<p>Every inquiry is read personally. Tell us about the piece you're imagining, the timeline, and where it needs to live.</p>
+<div class="contact-detail">
+<strong>Email</strong>
+<span>hello@stupidostudios.art</span>
+</div>
+<div class="contact-detail">
+<strong>Instagram</strong>
+<span>@stupido_studios</span>
+</div>
+<a class="contact-link" href="https://www.instagram.com/stupido_studios" rel="noopener noreferrer" target="_blank">Message on Instagram</a>
+</div>
+<div class="contact-form reveal">
+<form>
+<div class="field">
+<label for="name">Name</label>
+<input class="input" id="name" name="name" required="" type="text"/>
+</div>
+<div class="field">
+<label for="email">Email</label>
+<input class="input" id="email" name="email" required="" type="email"/>
+</div>
+<div class="field">
+<label for="message">Message</label>
+<textarea class="input" id="message" name="message" required=""></textarea>
+</div>
+<button class="form-submit" type="submit">Send Inquiry</button>
+<p aria-live="polite" class="form-status" id="form-status"></p>
+</form>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="footer-content reveal">
+<div class="footer-mark">Stupido Studios</div>
+<p class="footer-quote">Where imagination becomes art — traditional craft, digital illustration, and dimensional form, gathered into one continuing body of work.</p>
+<nav aria-label="Quick links" class="footer-links">
+<a href="index.html">Home</a>
+<a href="index.html#gallery">Gallery</a>
+<a href="T_arts.html">Traditional Art</a>
+<a href="Digi_arts.html">Digital Art</a>
+<a href="3D_sculpts.html">3D Sculptures</a>
+<a href="index.html#about">About</a>
+<a href="index.html#contact">Contact</a>
+</nav>
+<div class="footer-socials">
+<a aria-label="Instagram" href="https://www.instagram.com/stupido_studios" rel="noopener noreferrer" target="_blank">IG</a>
+</div>
+<button class="back-to-top" type="button">Back to top</button>
+</div>
+</footer>
+<div aria-label="Artwork preview" aria-modal="true" class="lightbox" id="lightbox" role="dialog">
+<div class="lightbox-card">
+<button aria-label="Close preview" class="lightbox-close" type="button">×</button>
+<div class="lightbox-image" id="lightbox-image"></div>
+<div class="lightbox-body">
+<h3 id="lightbox-title"></h3>
+<p id="lightbox-description"></p>
+<div class="lightbox-meta" id="lightbox-meta"></div>
+<div class="lightbox-toolbar">
+<div>
+<button aria-label="Previous artwork" id="lightbox-prev" type="button">← Prev</button>
+<button aria-label="Next artwork" id="lightbox-next" type="button">Next →</button>
+</div>
+<button id="lightbox-zoom" type="button">Zoom</button>
+</div>
+</div>
+</div>
+</div>
+<script defer="True" src="script.js"></script></body>
+</html>
